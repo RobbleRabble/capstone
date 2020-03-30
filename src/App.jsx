@@ -9,17 +9,20 @@ const App = () => {
   return (
     <Router>
       <header>
-        <h1>Welcome to my SPA</h1>
+        <h1>Welcome Karst-tographer</h1>
         <nav>
           <ul>
             <li>
               <Link to="/">Go Home</Link>
             </li>
             <li>
-              <Link to="/1">Page 1</Link>
+              <Link to="/1">View All</Link>
             </li>
             <li>
-              <Link to="/2">Page 2</Link>
+              <Link to="/2">Filter by County</Link>
+            </li>
+            <li>
+              <Link to="/add">Report a potential sinkhole</Link>
             </li>
           </ul>
         </nav>
@@ -28,6 +31,7 @@ const App = () => {
         <Route exact path="/" component={HomePage}></Route>
         <Route exact path="/1" component={Page}></Route>
         <Route exact path="/2" component={Page2}></Route>
+        <Route exact path="/add" component={Page2}></Route>
         <Route path="*" component={NotFound}></Route>
       </Switch>
     </Router>

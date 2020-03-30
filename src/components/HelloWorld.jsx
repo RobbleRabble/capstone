@@ -1,7 +1,7 @@
-import React from 'react'
+// import React from 'react'
 
-const HelloWorld = () => {
-  return <div>Hello, World!</div>
-}
+// const HelloWorld = () => {
+//   return <div>Hello, World!</div>
+// }
 
-export default HelloWorld
+// export default HelloWorld
